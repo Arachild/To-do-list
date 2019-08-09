@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html,body {
+	font-size: 12px;
+	background: linear-gradient(to bottom, #435F7A, #8C2E24);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+h1 {
+	margin-bottom: 50px;
+	font-size: 300%;
+	letter-spacing: 0.15em;
+}
+
+
+#box {
+	background: linear-gradient(to bottom, #435F7A, #8C2E24);
+	height: auto;
+	width: 400px;
+	box-shadow: 0 0 15px #151414;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+
+}
+
+.text{
+	
+	padding: 5px;
+	box-shadow: 0 10px 20px #333;
+	height: 50px;
+	
+
+}
+
+.text input {
+	background: transparent;
+	outline: none;
+	border: none;
+	margin-top: -3px;
+	margin-left: 25px;
+	height: 50px;
+	width: 80%;
+	color:#ffedee;
+
+}
+
+
+
+#liNum {
+	margin-left: 30px;	
+	color: #ffedee;
+	
+	
+}
+
+
+
+.list{
+	padding-left: 40px;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.list ul {
+	padding-right: 20px;
+}
+
+.list li {
+	color:white;
+	font-size: 150%;
+	padding: 10px 6px;
+	border-bottom: 1px solid #fff4ed;
+}
+
+.list li span:hover{
+	text-shadow: 0 0 10px
+}
+
+.list:last-child {
+	margin-bottom: 20px;
+}
+
+/**addtext內的placeholder文字設定**/
+::-webkit-input-placeholder { color: #fff4ed;font-size: 120%;font-style: italic; }
+:-moz-placeholder { color: #fff4ed;font-size: 120%;font-style: italic; }
+::-moz-placeholder { color: #fff4ed;font-size: 120%;font-style: italic; }
+:-ms-input-placeholder { color: #fff4ed;font-size: 120%;font-style: italic; }
+
+
+/********************************/
+/***********button***************/
+/********************************/
+
+button {
+	float: right;
+	background: none;
+	border: none;
+	outline: none;
+	color:  white;
+	padding:  6px 8px;
+
+}
+
+	
+.add {
+	margin-right: 15px;
+
+}
+
+.ion-md-add{
+	font-size: 200%;
+}
+
+.ion-md-checkmark,
+.ion-md-close{
+	font-size:120%;
+}
+
+
+button:hover {
+	text-shadow: 0 0 10px;
+}
