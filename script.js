@@ -32,7 +32,7 @@ function checkItems() {
         attachListItemButtons(li);
         ul.appendChild(li);
         addItemInput.value = '';
-        document.getElementById('liNum').innerHTML = liNum;
+        document.getElementById('liNum').innerHTML = liNum+1;
     }
 };
 
