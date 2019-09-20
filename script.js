@@ -32,6 +32,7 @@ function checkItems() {
         attachListItemButtons(li);
         ul.appendChild(li);
         addItemInput.value = '';
+        let liNum = lis.length;
         document.getElementById('liNum').innerHTML = liNum+1;
     }
 };
