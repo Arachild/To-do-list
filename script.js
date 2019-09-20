@@ -31,10 +31,11 @@ function checkItems() {
         li.textContent = addItemInput.value;
         attachListItemButtons(li);
         ul.appendChild(li);
-        addItemInput.value = '';
-        let liNum = lis.length;
-        document.getElementById('liNum').innerHTML = liNum+1;
+        addItemInput.value = '';        
+        document.getElementById('liNum').innerHTML = liNum;
     }
+    let liNum = lis.length;
+    document.getElementById('liNum').innerHTML = liNum;
 };
 
 
