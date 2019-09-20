@@ -31,8 +31,7 @@ function checkItems() {
         li.textContent = addItemInput.value;
         attachListItemButtons(li);
         ul.appendChild(li);
-        addItemInput.value = '';        
-        document.getElementById('liNum').innerHTML = liNum;
+        addItemInput.value = '';
     }
     let liNum = lis.length;
     document.getElementById('liNum').innerHTML = liNum;
